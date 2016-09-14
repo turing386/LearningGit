@@ -1,2 +1,2 @@
-# TestGitHub
-test my github skills.
+# LearingGitHub & Git
+Learing++.
