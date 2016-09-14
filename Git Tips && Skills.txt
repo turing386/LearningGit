@@ -1,16 +1,16 @@
 These skills is come from webpages.The copyright belongs to the authors.
 
 1    学习Git的好网站 LearnGitBranching（右下角地球标志可切换成中文版的）
-2    这里是最新的Pro Git中文官方学习资料（免费，且有pdf,epub,mobi,html版本）
+2    https://git-scm.com/book/zh/ 是最新的Pro Git中文官方学习资料（免费，且有pdf,epub,mobi,html版本）
 3    git config --global全局配置文件.gitconfig存放的目录为~（windows下也是）
 
- 4   这样设置后可以优美简洁的显示git log
+4   这样设置后可以优美简洁的显示git log
 
         git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"，之后查看log只需键入git lg，是git lg
 
- 5   git XXX --help可在浏览器中查看最详细最全的git命令帮助信息，git XXX -h可在命令行中显示简要的帮助信息
+5   git XXX --help可在浏览器中查看最详细最全的git命令帮助信息，git XXX -h可在命令行中显示简要的帮助信息
 
- 6   若想以后通过确认日志工具方便的查看提交记录，git commit后，编辑提交信息时要注意格式
+6   若想以后通过确认日志工具方便的查看提交记录，git commit后，编辑提交信息时要注意格式
 
         第一行：用一行文字描述提交的更改内容
         第二行：空行

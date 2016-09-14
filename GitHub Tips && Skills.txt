@@ -17,7 +17,7 @@ These skills is come from webpages.The copyright belongs to the authors.
     另外，MIT条款也是自由软件基金会（FSF）所认可的自由软件许可协议条款，与GPL兼容
 
 5 GitHub上Issue、Wiki、评论等都可以用MarkDown语法表示（是都可以！）
-6 这里有最全的各类.gitignore模版（直接download吧）
+6 https://github.com/github/gitignore 有最全的各类.gitignore模版（直接download吧）
 7 GitHub页面支持使用键盘快捷键，shift + / 键可打开一览表（不知道试试吧）
 8 在某仓库页面上按下键盘的t键再输入文件名，可快速查询需要的目录或文件名，不用手动找（很实用,节约时间）
 
@@ -36,8 +36,8 @@ These skills is come from webpages.The copyright belongs to the authors.
     下列任意格式都可以——fix #2, fixes #2, fixed #2, close #2, closes #2, closed #2, resolve #2, resolves #2, resolved #2
 
 12 Issue和Pull Request的编号通用，可以直接在Issue中给出源代码，其就可以变成Pull Request。（hub命令）
-13 emoji表情自动补全功能，评论中输入:后便会启动，emoji速查表在这里
+13 emoji表情自动补全功能，评论中输入:后便会启动，emoji速查表在 http://www.webpagefx.com/tools/emoji-cheat-sheet/
 14 Wiki也可以通过Git进行管理，Clone其URL即可
-15 建立个人私有仓库，按套餐类型，最低只要7美元/月
+15 建立个人私有仓库，按套餐类型 https://github.com/plans ，最低只要7美元/月
 
 come from : http://www.ituring.com.cn/article/264697#
