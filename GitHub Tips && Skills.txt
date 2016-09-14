@@ -1,0 +1,43 @@
+These skills is come from webpages.The copyright belongs to the authors.
+
+1 https://octodex.github.com/ 可以下载各种造型的GitHub吉祥物（总有一款会是你的菜）
+2 https://github.com/features/hosting 可以查看GitHub托管的总仓库数（总数很大很大）
+3 https://github.com/trending 可以查看当前备受瞩目的开源软件（追逐潮流，走在前沿，拥抱最新的技术）
+
+4 GitHub上的开源代码，大多数使用的是MIT许可协议，基本要求要了解（要了解）
+
+    被授权人权利
+    被授权人有权利使用、复制、修改、合并、出版发行、散布、再授权和/或贩售软件及软件的副本，及授予被供应人同等权利，惟服从以下义务。
+    被授权人义务
+    在软件和软件的所有副本中都必须包含以上版权声明和本许可声明。
+    其他重要特性
+    此许可协议并非属copyleft的自由软件许可协议条款，允许在自由及开放源代码软件或非自由软件（proprietary software）所使用。
+    MIT的内容可依照程序著作权者的需求更改内容。此亦为MIT与BSD（The BSD license, 3-clause BSD license）本质上不同处。
+    MIT许可协议可与其他许可协议并存。
+    另外，MIT条款也是自由软件基金会（FSF）所认可的自由软件许可协议条款，与GPL兼容
+
+5 GitHub上Issue、Wiki、评论等都可以用MarkDown语法表示（是都可以！）
+6 这里有最全的各类.gitignore模版（直接download吧）
+7 GitHub页面支持使用键盘快捷键，shift + / 键可打开一览表（不知道试试吧）
+8 在某仓库页面上按下键盘的t键再输入文件名，可快速查询需要的目录或文件名，不用手动找（很实用,节约时间）
+
+9 通过手写URL快速查看代码之间的差异，可按分支、前几天、制定日期的方式查询（高手的习惯）
+
+    查看分支差别：https://github.com/rails/rails/compare/4-0-stable...3-2-stable
+    查看几天前差别：https://github.com/rails/rails/compare/master@{2.day.ago}...master
+    查看特定日期差别：https://github.com/rails/rails/compare/master@%7B2016-09-08%7D...master
+
+10 通过在Pull Request的URL后添加.diff或.patch，可直接获取对应格式的Pull Request文件
+
+    若Pull Request的URL为https://XXXX/仓库名/pull/28,则获取diff格式文件，只需在其末尾添加.diff，如https://XXXX/仓库名/pull/28.diff，patch格式也相同，末尾添加.patch
+
+11 Close Issue时，可在提交中以一定的格式描述提交信息，而对应的Issue就会自动Close。不用在网页中手动操作。（方便）
+
+    下列任意格式都可以——fix #2, fixes #2, fixed #2, close #2, closes #2, closed #2, resolve #2, resolves #2, resolved #2
+
+12 Issue和Pull Request的编号通用，可以直接在Issue中给出源代码，其就可以变成Pull Request。（hub命令）
+13 emoji表情自动补全功能，评论中输入:后便会启动，emoji速查表在这里
+14 Wiki也可以通过Git进行管理，Clone其URL即可
+15 建立个人私有仓库，按套餐类型，最低只要7美元/月
+
+come from : http://www.ituring.com.cn/article/264697#

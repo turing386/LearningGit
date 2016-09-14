@@ -1,0 +1,33 @@
+These skills is come from webpages.The copyright belongs to the authors.
+
+1    学习Git的好网站 LearnGitBranching（右下角地球标志可切换成中文版的）
+2    这里是最新的Pro Git中文官方学习资料（免费，且有pdf,epub,mobi,html版本）
+3    git config --global全局配置文件.gitconfig存放的目录为~（windows下也是）
+
+ 4   这样设置后可以优美简洁的显示git log
+
+        git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"，之后查看log只需键入git lg，是git lg
+
+ 5   git XXX --help可在浏览器中查看最详细最全的git命令帮助信息，git XXX -h可在命令行中显示简要的帮助信息
+
+ 6   若想以后通过确认日志工具方便的查看提交记录，git commit后，编辑提交信息时要注意格式
+
+        第一行：用一行文字描述提交的更改内容
+        第二行：空行
+        第三行：描述更改的原因和详细内容
+
+7   git commit -a只能统一提交修改过的文件，但新建的文件还是需要git add XXX后再提交。
+8   git checkout -可以方便的切换至上一个分支
+
+9    git reflog可查看当前仓库执行过的操作（即使错误的执行了git命令，也可通过reflog恢复原来状态，而git log只能查看以当前状态为终点的历史操作
+
+        只要不进行Git的GC（Carbage Collection，垃圾回收）就可以通过reflog日志随意调取最近的历史状态
+
+10    git reset --hard XXXXX回溯历史时，哈希值只要输入4位以上就行
+11    git commit --amend 修改提交信息（万一提交信息里面有拼写错误呢）
+12    git rebase -i HEAD~2将最近两次提交的记录合并为一次完美记录，git rebase可将不良记录（如拼写错误）从历史中抹去（很实用，很实用）
+13    git branch -a 同时显示本地仓库和远程仓库的分支信息
+14    git log -p FILENAME显示文件改动信息
+15    git commit之前先git diff HEAD查看本次提交和上次提交的区别（好习惯）
+
+come from : http://www.ituring.com.cn/article/264697#
